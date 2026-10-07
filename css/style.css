@@ -63,7 +63,7 @@ ul li a {
     aspect-ratio: 16 / 9;
     background-image: 
         linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgb(77, 77, 77) 90%),
-        url('imagens/foto-fundo-gotham.png');
+        url('../imagens/foto-fundo-gotham.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
