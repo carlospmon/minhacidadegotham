@@ -1,0 +1,296 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+body {
+    background-color: rgb(77, 77, 77);
+}
+
+header {
+    background-color: rgba(18, 19, 24, 0.9);
+            backdrop-filter: blur(8px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 8%;
+            z-index: 1000;
+}
+
+header h2 {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+h2 span {
+    font-size: 50px;
+    color: #f5c518;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 50px;
+    
+}
+
+.menu a:hover {
+    color: #836a10;
+    font-size: 44px;
+}
+
+ul li a {
+    color: white;
+  text-decoration: none;
+}
+
+.menu li {
+    margin: 15px;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.foto-fundo {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgb(77, 77, 77) 90%),
+        url('/imagens/foto-fundo-gotham.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulop {
+    font-size: 150px;
+    padding-bottom: 100px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+.descricao-gotham {
+    font-size: 20px;
+    display: flex;
+}
+
+.meio-texto {
+    color: rgba(197, 196, 196, 0.695);
+}
+
+
+.texto1 , .texto2 , .texto3 {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border: 3px solid #f5c518;
+    border-radius: 10px;
+    background-color: rgba(42, 41, 41, 0.651);
+    padding: 20px;
+
+}
+
+span {
+    font-size: 20px;
+    color: #fed53f;
+}
+
+.local-visita {
+    font-size: 60px;
+    border-left: 10px solid #f5c518;
+    border-radius: 5px;
+    margin: 70px;
+    margin-left: 30px;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.lista-tudo {
+    width: 50%;
+    margin: 100px;
+}
+
+.lista-img {
+            width: 240px;
+            height: 180px; 
+        }
+
+.item-lista {
+    list-style: none;
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.805);
+    margin-bottom: 50px;
+    border: 3px solid #1b1b1b;
+    border-radius: 5px;
+}
+
+.lista-conteudo h3 {
+            color: #f5c518;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+.lista-conteudo p {
+            color: rgba(230, 230, 230, 0.88);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+.lista-conteudo {
+    padding: 40px;
+    width: 50%;
+}
+
+aside {
+    width: 25%;
+    margin: 100px;
+    margin-top: 400px;
+}
+
+aside h2 {
+    width: 80%;
+    font-size: 45px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-left: 10px solid #f5c518;
+    border-right: 10px solid #f5c518;
+    border-radius: 5px;
+    padding-left:20px ;
+}
+
+aside p {
+        margin-left: 0; 
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        }
+
+
+    .conteudo-viagem {
+        background-color: rgba(58, 58, 58, 0.805);
+        border: 3px solid rgb(32, 32, 32);
+        border-radius: 10px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+}
+
+.conteudo-viagem input {
+        width: 100%;
+        padding: 12px 15px;
+        background-color: rgba(30, 30, 30, 0.85);
+        border: 2px solid rgb(32, 32, 32);
+        border-radius: 6px;
+        color: white;
+        font-size: 16px;
+}
+
+input[type="email"] {
+    border-color: #836a10;
+}
+
+.conteudo-viagem button {
+        margin-top: 15px;
+        padding: 12px;
+        background-color: #f5c518;
+        color: #121318;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        }
+
+.conteudo-viagem button:hover {
+        background-color: #efd471;
+        }
+
+.conteudo-todo {
+    display: flex;
+}
+
+footer {
+        background-color: rgba(18, 19, 24, 0.823);
+        border-top: 2px solid #f5c518;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        margin-top: 60px;
+        font-size: 16px;
+}
+
+.item-listagaleria {
+    flex-basis: calc(50% - 15px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background-color: rgba(39, 39, 39, 0.805);
+    border: 3px solid #1b1b1b;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.lista-imggaleria {
+    width: 100%; 
+    height: 620px;
+    object-fit: cover;
+    display: block;
+}
+
+.lista-tudogaleria {
+    width: 100%;
+    margin: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-visitagaleria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.local-visitagaleria {
+    font-size: 60px;
+    border-radius: 5px;
+    margin: 100px auto 70px auto; 
+    padding-left: 20px;
+    text-align: center;            
+    
+}
+
+#titulopgaleria {
+    font-size: 80px;
+    padding-bottom: 100px;
+    font-family: monospace;
+}
+
+.item-listagaleria img:hover {
+    border: 7px solid black;
+}
+
+.local-visitagaleria {
+    font-size: 100px;
+}
